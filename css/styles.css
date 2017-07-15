@@ -71,3 +71,32 @@ letter-spacing: 1px;
 .form-bg-width{
   width: 100%;
 }
+.name,
+.email,
+.phone,
+#amounts,
+#price-1{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.popup-form select,
+.popup-form input{
+  color: #f3f3f3;
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: 1px solid #3598DB;
+    opacity: 1;
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+}
+input::placeholder{
+  color:#D1D4D6;
+}
