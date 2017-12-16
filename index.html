@@ -6,26 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Corporate</title>
+    <title>Greater Demand Solutions</title>
     <!-- FAVICON LINK -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
     <!-- FONT AWESOME LINK -->
     <link rel="stylesheet" type="text/css" href="css/vendor/font-awesome/css/font-awesome.min.css">
 
     <!-- IMAGE OVERLAY STYLE LINK  -->
-    <link rel="stylesheet" type="text/css" href="css/vendor/overlay/style.css"> 
+    <link rel="stylesheet" type="text/css" href="css/vendor/overlay/style.css">
     <!-- LIGHTBOX STYLE LINK -->
-    <link rel="stylesheet" type="text/css" href="css/vendor/lightbox/ekko-style.css">  
+    <link rel="stylesheet" type="text/css" href="css/vendor/lightbox/ekko-style.css">
 
     <!-- CAROUSEL STYLE LINK -->
     <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/carousel.css">  
+    <link rel="stylesheet" type="text/css" href="css/vendor/owl-carousel/carousel.css">
+
+    <!-- W3 Cards CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
     <link rel="stylesheet" type="text/css" href="css/custom/style_blue.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,7 +41,7 @@
 
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="75">
 
-  
+
     <!--================================= NAVIGATION START =============================================-->
     <nav class="navbar navbar-default navbar-fixed-top menu-bg" id="top-nav">
         <div class="container">
@@ -49,7 +54,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div>
-                       <a href="#"> <img src="images/150x50.png" alt="150x50" /></a>
+                       <a href="#" class = "grooveshark">Greater Demand Solutions</a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -60,24 +65,31 @@
                         </li>
                         <li class="menu-fs menu-underline"><a href="#schedule" class="pagescroll">schedule</a>
                         </li>
+                        <li class="menu-fs menu-underline"><a href="#speakers" class="pagescroll"> events</a>
+                        </li>
                         <li class="menu-fs menu-underline"><a href="#speakers" class="pagescroll"> speakers</a>
                         </li>
                         <li class="menu-fs menu-underline"><a href="#faq" class="pagescroll"> faq</a>
+                        </li>
+                        <li class="menu-fs menu-underline"><a href="#speakers" class="pagescroll"> contact us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </nav> 
+    </nav>
     <!--================================= NAVIGATION END =============================================-->
 
   <!--================================= HEADER-2 START =============================================-->
-    <section class="container-fluid header-corporate2-bgimage header-section-space" id="home">
+    <section class="container-fluid video-underline header-section-space" id="home">
+        <video autoplay muted loop id="myVideo">
+          <source src="video/background.mp4" type="video/mp4">
+        </video>
         <div class="container">
             <div class="col-md-8 col-sm-8 header-white-text common-res-bottom-1 header2-right">
-                <h2 class="left header-head1 header-head-bottom">new york </h2>
-                <h1 class="left header-head2 header-head-bottom">international conference </h1>
-                <p class="left header-content">Donec varius sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean a arcu ullamcorper eros viverra suscipit. End of content. Donec varius sodales orci. Class aptent taciti sociosqu.</p>
+                <h2 class="left header-head1 header-head-bottom">Greater Demand Solutions </h2>
+                <h1 class="left header-head2 header-head-bottom">Business Consulting / Income & Business Taxes</h1>
+                <p class="left header-content">Welcome to Greater Demand Solutions! Greater Demand Solutions was established in 2010 by CEO Tasha Williams Robinson. While developing GDS, she saw how hard it was for a small business owner to become established.It was then, she decided to take her own business experiences to help other businesses to grow and thrive. We are a firm that provides small business consulting and marketing services. We pride ourselves in being a one-stop-shop for all of your individual and business needs.</p>
                 <div class="left btn-top">
                     <a href="#">
                         <div class="btn-1">READ MORE</div>
@@ -95,14 +107,14 @@
                                 <input class="email col-xs-12 col-sm-12" type="email" name="business" placeholder="Enter Your Email" required autocomplete="off">
 
                                 <input class="phoneno col-md-6 col-xs-6 col-sm-6 price res-header-form-width" name="phoneno" placeholder="Phone Number" required autocomplete="off" type="text" onkeypress="return isNumber(event)" maxlength="10">
-								
+
 								<select name="amount" class="col-md-5 col-xs-5 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 price res-header-form-width required select" id="price_2">
                                     <option value="">Choose Ticket</option>
                                     <option value="10">$10</option>
                                     <option value="20">$20</option>
                                     <option value="50">$50</option>
                                 </select>
-								
+
                             </div>
 
                             <div class="row">
@@ -118,7 +130,7 @@
 
     </section>
     <!--================================= HEADER-2 END =============================================-->
-	
+
 	 <!--================================= OUR SERVICES START =============================================-->
     <section class="container-fluid section-space section-bg-1" id="services">
         <div class="container">
@@ -126,70 +138,102 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="services-icon">
-                        <img src="images/64x64x1.png" alt="icon" />
                     </div>
-                    <div class="services-pad services-bottom">
-                        <h2 class="left h2-bottom"><a href="#">speakers</a></h2>
-                        <p class="left">Donec varius sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
-                    </div>
+                    <div class="w3-card-4">
+                          <header class="w3-container w3-light-grey">
+                            <h1>Header</h1>
+                          </header>
+                          <div class="w3-container">
+                            <p>Lorem ipsum...</p>
+                          </div>
+                          <footer class="w3-container w3-white">
+                            <h5>Footer</h5>
+                          </footer>
+                      </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6">
                     <div class="services-icon">
-                        <img src="images/64x64x2.png" alt="icon" />
                     </div>
-                    <div class="services-pad services-bottom">
-                        <h2 class="left h2-bottom"><a href="#"> sessions </a></h2>
-                        <p class="left">Donec varius sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
-                    </div>
+                    <div class="w3-card-4">
+                          <header class="w3-container w3-light-grey">
+                            <h1>Header</h1>
+                          </header>
+                          <div class="w3-container">
+                            <p>Lorem ipsum...</p>
+                          </div>
+                          <footer class="w3-container w3-white">
+                            <h5>Footer</h5>
+                          </footer>
+                      </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6">
                     <div class="services-icon">
-                        <img src="images/64x64x3.png" alt="icon" />
                     </div>
-                    <div class="services-pad services-bottom">
-                        <h2 class="left h2-bottom"><a href="#">workshops</a></h2>
-                        <p class="left">Donec varius sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
-                    </div>
+                    <div class="w3-card-4">
+                          <header class="w3-container w3-light-grey">
+                            <h1>Header</h1>
+                          </header>
+                          <div class="w3-container">
+                            <p>Lorem ipsum...</p>
+                          </div>
+                          <footer class="w3-container w3-white">
+                            <h5>Footer</h5>
+                          </footer>
+                      </div>
                 </div>
+                <div class="bottom-cards-wrapper">
+                  <div class="col-md-4 col-sm-6">
+                    <div class="w3-card-4">
+                          <header class="w3-container w3-light-grey">
+                            <h1>Header</h1>
+                          </header>
+                          <div class="w3-container">
+                            <p>Lorem ipsum...</p>
+                          </div>
+                          <footer class="w3-container w3-white">
+                            <h5>Footer</h5>
+                          </footer>
+                      </div>
+                  </div>
 
-                <div class="col-md-4 col-sm-6">
-                    <div class="services-icon">
-                        <img src="images/64x64x4.png" alt="icon" />
-                    </div>
-                    <div class="services-pad res-services-bottom services-res-bottom">
-                        <h2 class="left h2-bottom"><a href="#">tickets</a></h2>
-                        <p class="left">Donec varius sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
-                    </div>
-                </div>
+                  <div class="col-md-4 col-sm-6">
+                    <div class="w3-card-4">
+                          <header class="w3-container w3-light-grey">
+                            <h1>Header</h1>
+                          </header>
+                          <div class="w3-container">
+                            <p>Lorem ipsum...</p>
+                          </div>
+                          <footer class="w3-container w3-white">
+                            <h5>Footer</h5>
+                          </footer>
+                      </div>
+                  </div>
 
-                <div class="col-md-4 col-sm-6">
-                    <div class="services-icon">
-                        <img src="images/64x64x5.png" alt="icon" />
-                    </div>
-                    <div class="services-pad services-res-bottom">
-                        <h2 class="left h2-bottom"><a href="#">sponsors</a></h2>
-                        <p class="left">Donec varius sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="services-icon">
-                        <img src="images/64x64x6.png" alt="icon" />
-                    </div>
-                    <div class="services-pad">
-                        <h2 class="left h2-bottom"><a href="#">subscriber</a></h2>
-                        <p class="left">Donec varius sodales orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
-                    </div>
+                  <div class="col-md-4 col-sm-6">
+                    <div class="w3-card-4">
+                          <header class="w3-container w3-light-grey">
+                            <h1>Header</h1>
+                          </header>
+                          <div class="w3-container">
+                            <p>Lorem ipsum...</p>
+                          </div>
+                          <footer class="w3-container w3-white">
+                            <h5>Footer</h5>
+                          </footer>
+                      </div>
+                  </div>
                 </div>
             </div>
         </div>
     </section>
     <!--================================= OUR SERVICES END =============================================-->
-	
+
 	 <!--================================= COUNTER START =============================================-->
-    <div class="container-fluid counter-bgimage-corporate2 counter-section-space">
+    <div class="container-fluid video-underline counter-section-space">
+      <h1 class="accomplishments">Accomplishments</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-6 counter-res-bottom">
@@ -227,7 +271,7 @@
         </div>
     </div>
     <!--================================= COUNTER END =============================================-->
-	
+
 	<!--================================= SCHEDULE-3 START =============================================-->
     <section class="container-fluid section-space section-bg-1" id="schedule">
         <div class="container">
@@ -297,7 +341,7 @@
         </div>
     </section>
     <!--================================= SCHEDULE-3 END =============================================-->
-	
+
 	 <!--================================= BOOK TICKETS START =============================================-->
     <section class="container-fluid section-space section-bg-2">
         <div class="container">
@@ -367,7 +411,7 @@
         </div>
     </section>
     <!--================================= BOOK TICKETS END =============================================-->
-	
+
 	 <!--================================= OUR SPEAKERS START =============================================-->
     <section class="container-fluid section-space section-bg-1" id="speakers">
         <div class="container">
@@ -501,7 +545,7 @@
         </div>
     </section>
     <!--================================= OUR SPEAKERS END =============================================-->
-	
+
 	 <!--================================= UPCOMING EVENTS START =============================================-->
     <section class="container-fluid section-space section-bg-2">
         <div class="container">
@@ -568,7 +612,7 @@
         </div>
     </section>
     <!--================================= UPCOMING EVENTS END =============================================-->
-	
+
 	 <!--================================= VENUE START =============================================  -->
     <section class="container-fluid section-space section-bg-1">
         <div class="container">
@@ -597,8 +641,8 @@
             </div>
         </div>
     </section>
-    <!--================================= VENUE END =============================================--> 
-	
+    <!--================================= VENUE END =============================================-->
+
 	  <!--================================= TEAM VACATION START =============================================-->
     <section class="container-fluid section-space section-bg-2">
         <div class="container">
@@ -621,7 +665,7 @@
         </div>
     </section>
     <!--================================= TEAM VACATION END =============================================-->
-	
+
 	<!--================================= FREQUENTLY ASKED QUESTIONS START =============================================-->
     <section class="container-fluid section-space section-bg-1" id="faq">
         <div class="container">
@@ -658,9 +702,9 @@
         </div>
     </section>
     <!--================================= FREQUENTLY ASKED QUESTIONS END =============================================-->
-	
+
 	 <!--================================= CTA START =============================================-->
-    <section class="container-fluid cta-bgimage-corporate cta-section-space">
+    <section class="container-fluid gds-background cta-section-space">
         <div class="container">
             <div class="col-md-10 column-center no-padding cta-white-text">
                 <h1 class="center">ready to get to work? </h1>
@@ -812,14 +856,14 @@
     <script type="text/javascript" src="js/vendor/img-overlay/overlay.js"></script>
     <!-- LIGHT BOX GALLERY -->
     <script type="text/javascript" src="js/vendor/lightbox/ekko-lightbox.js"></script>
-    <script type="text/javascript" src="js/vendor/lightbox/lightbox.js"></script>  
+    <script type="text/javascript" src="js/vendor/lightbox/lightbox.js"></script>
     <!-- SLIDER JS FILES -->
     <script type="text/javascript" src="js/vendor/slider/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/vendor/slider/carousel.js"></script>
     <!-- SUBSCRIBE MAILCHIMP -->
     <script type="text/javascript" src="js/vendor/subscribe/subscribe_validate.js"></script>
     <!-- VALIDATION  -->
-    <script type="text/javascript" src="js/vendor/validate/jquery.validate.min.js"></script> 
+    <script type="text/javascript" src="js/vendor/validate/jquery.validate.min.js"></script>
     <!-- POPUP JS -->
     <script type="text/javascript" src="js/vendor/popup/jquery.popupoverlay.js"></script>
     <!-- COUNTDOWN JS  -->
@@ -828,7 +872,7 @@
     <script type="text/javascript" src="js/vendor/phone_number/phone_number.js"></script>
 
     <!-- VIDEO JS -->
-    <script type="text/javascript" src="js/vendor/video/video.js"></script> 
+    <script type="text/javascript" src="js/vendor/video/video.js"></script>
 
     <!-- THEME JS -->
     <script type="text/javascript" src="js/custom/custom.js"></script>
